@@ -1,0 +1,77 @@
+.todo-item {
+  padding: 10px 0;
+  border-top: solid 1px #ddd;
+  min-height: 30px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-checkbox {
+  flex-shrink: 0;
+  margin: auto 1ex auto 0;
+}
+
+.todo-title {
+  flex-grow: 1;
+  padding-left: 11px;
+}
+.completed {
+  text-decoration: line-through;
+  color: red;
+}
+
+.expand .plus {
+  display: none;
+}
+
+.expand .minus {
+  display: block;
+}
+
+.minus {
+  display: none;
+}
+
+.fr {
+  position: relative;
+  right: 0;
+  float: right;
+}
+
+.details-box {
+  height: 0;
+  transition: all 600ms ease-out;
+  overflow: hidden;
+}
+
+.expand .details-box {
+  height: auto;
+  min-height: 40px;
+  overflow: visible;
+}
+
+.todo-item {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.table-res {
+  border: 1px solid;
+  width: 100%;
+}
+.table-res td,
+.table-res th {
+  border: 1px dotted;
+}
+.table-res th {
+  background: rgb(31, 29, 29);
+  color: white;
+}
+
+.mb-2 {
+  margin-bottom: 4px;
+}
